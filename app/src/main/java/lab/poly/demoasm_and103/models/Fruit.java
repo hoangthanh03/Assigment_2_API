@@ -1,6 +1,6 @@
-package lab.poly.demoasm_and103;
+package lab.poly.demoasm_and103.models;
 
-public class fruitModel {
+    public class Fruit {
     //Các thuộc tính của model giống mongodb
     private String _id;
     private String name;
@@ -10,10 +10,10 @@ public class fruitModel {
     private int quantity;
 
 
-    public fruitModel() {
+    public Fruit() {
     }
 
-    public fruitModel(String _id, String name, Double price, String origin, String image, int quantity) {
+    public Fruit(String _id, String name, Double price, String origin, String image, int quantity) {
         this._id = _id;
         this.name = name;
         this.price = price;
@@ -22,7 +22,7 @@ public class fruitModel {
         this.quantity = quantity;
     }
 
-    public fruitModel(String name, Double price, String origin, String image, int quantity) {
+    public Fruit(String name, Double price, String origin, String image, int quantity) {
         this.name = name;
         this.price = price;
         this.origin = origin;
